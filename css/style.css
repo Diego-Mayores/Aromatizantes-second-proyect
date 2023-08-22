@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER */
+header{
+    background-color: cadetblue;
+    color: darkblue;
+}
+/* MAIN */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: mintcream;
+}
+
+/*Grid*/
+.img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.images-grid {
+    max-width: 100%;
+    height: auto;
+    background-color: mintcream;
+}
+
+/*Fragancias*/
+.todas {
+    background-image: url(../galeria/ftodas.webp);
+}
+
+.fragan {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: initial;
+}
+
+.catalogue-fragan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: mintcream;
+}
+
+.icono-fragan {
+    width: auto;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.flower {
+    background-color: pink;
+    border-radius: 100%;
+}
+
+.citric {
+    background-color: orange;
+    border-radius: 100%;
+}
+
+.fruit {
+    background-color: red;
+    border-radius: 100%;
+}
+
+.gourmet {
+    background-color: green;
+    border-radius: 100%;
+}
+
+.oriental {
+    background-color: skyblue;
+    border-radius: 100%;
+}
+
+.card-fragan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*Litas*/
+
+.list-fragan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: mintcream;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.frutales {
+    background-image: url(../galeria/fragancias-frutales.jpg);
+}
+
+.florales {
+    background-image: url(../galeria/fflorales.jpg);
+}
+
+.citricas {
+    background-image: url(../galeria/fcitricas.png);
+}
+
+.gourmets {
+    background-image: url(../galeria/fgourmet.webp);
+}
+
+.orientales {
+    background-image: url(../galeria/foriente.jpg);
+}
+
+.list-fragan li {
+    margin: 0px 40px;
+}
+
+.card {
+    display: flex;
+}
+
+.card-img .card-text {
+    flex: 1;
+    padding: 10px;
+}
+
+.card-img {
+    max-width: 100%;
+}
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: mintcream;
+}
+.group-fragan {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    margin: 150px;
+}
+
+.group-fragan img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.orange{
+    background-color: orange;
+}
+
+.group-fragan-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+/* FOOTER */
+footer {
+    background-color: mintcream;
+}
+
+footer div p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    background-color: mintcream;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: mintcream;
+    width: 40px;
+}
+
+.img-contact {
+    height: 40px;
+    margin: 10px;
+}
